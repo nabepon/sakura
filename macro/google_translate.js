@@ -3,7 +3,7 @@
 */
 (function(){
 	var wsh = new ActiveXObject("WScript.Shell");
-	var translateUrl = "http://translate.google.com/translate_t?source=dict-chrome-ex&sl=en&tl=jp&q=";
+	var translateUrl = "http://translate.google.com/?sl=en&tl=jp&q=";
 	var str = Editor.GetSelectedString(0);
 	wsh.Run('chrome -url ' + translateUrl + encodeURI(str));
 	return
