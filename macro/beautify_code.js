@@ -3735,7 +3735,7 @@ var doBeautify = function(source,is_css) {
 		"space_before_conditional": false,
 		"unescape_strings": false,
 		"jslint_happy": false,
-		"end_with_newline": true,
+		"end_with_newline": false,
 		"wrap_line_length": 0,
 		"indent_inner_html": false,
 		"comma_first": false,
