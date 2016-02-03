@@ -1,0 +1,18 @@
+﻿// 正規表現キーワード Ver1
+RxKey[001]=RK1,/-(ms|mso|moz|o|xv|atsc|wap|webkit|khtml|prince|ah|hp|ro|rim|tc)-/k
+RxKey[002]=RK2,/:(root|((first|last|only)-(child|of-type))|empty|link)/k
+RxKey[003]=RK2,/:(((visit|enabldisabl|check)ed))|active|hover|focus|target|not)/k
+RxKey[004]=RK2,/::(after|first-line|first-letter|before)/k
+RxKey[005]=RK2,/:nth-((last-)?(child|of-type))\((\d|odd|even|(\d[n]((\+|-)\d)?))\)/k
+RxKey[006]=RK2,/:lang\([A-Za-z]{2,3}(-[\dA-Za-z]{2,8})*\)/k
+RxKey[007]=RK2,/\[\w+(~|\^|\$|\*|\|)?="\w+"\]/k
+RxKey[008]=RK3,/#[\da-fA-F]{3}?\b/k
+RxKey[009]=RK3,/#[\da-fA-F]{6}?\b/k
+RxKey[010]=RK3,/rgb\(((\s)*(2[0-5]{2}|1\d{1,2}|[1-9]?\d)(\s)*(,)){2}(2[0-5]{2}|1\d{1,2}|[1-9]?\d)(\s)*\)/k
+RxKey[011]=RK3,/rgba\(((\s)*(2[0-5]{2}|1\d{1,2}|[1-9]?\d)(\s)*(,)){3}(\s)*(0?(\.)\d+|0|1.?0*)(\s)*\)/k
+RxKey[012]=RK3,/rgb\(((\s)*(\d*\.?\d+%)(\s)*(,)){2}(\s)*(\d*\.?\d+%)(\s)*\)/k
+RxKey[013]=RK3,/rgba\(((\s)*(\d*\.?\d+%)(\s)*(,)){3}(\s)*(0?(\.)\d+|0|1.?0*)*\)/k
+RxKey[014]=RK3,/hsl\((\s)*(\+|-)?(\d{0,3})(\s)*,(\d*\.?\d+%),(\d*\.?\d+%)*\)/k
+RxKey[015]=RK3,/hsla\((\s)*(\+|-)?(\d{0,3})((\s)*,(\s)*(\d*\.?\d+%)){2}(\s)*,(\s)*(0?(\.)\d+|0|1.?0*)(\s)*\)/k
+RxKey[016]=RK4,/@(charset|font-face|import|media|namespace|page)/k
+RxKey[017]=RK5,/(\+|-)*?\d*\.?\d+(%|ex|ch|r?em|vw|vh|vmin|cm|mm|in|px|pt|pc|deg|g?rad|turn|m?s|k?Hz)/k
