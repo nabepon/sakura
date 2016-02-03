@@ -3761,7 +3761,7 @@ var doBeautify = function(source,is_css) {
 	return output;
 };
 
-(function(source) {
+(function() {
 	var filename = Editor.GetFilename();
 	var names = filename.split(".");
 	var filetype = names[names.length-1];
