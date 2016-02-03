@@ -11,8 +11,9 @@
 
 (function(){
 	// show_color.htmlを入れた場所のパスに変更してください。
-	var path = "C:\\mydesk\\program\\sakura\\macro\\show_color.html";
-	
+	var filename = Editor.GetFilename();
+	var path = filename.replace(/js$/,"html").replace(/\\/,"\\\\");
+	var document = new ActiveXObject('htmlfile');
 	var color = Editor.GetSelectedString(0);
 	var wsh = new ActiveXObject("WScript.Shell");
 	wsh.Run('mshta "' + path + '#' + color + '"');
