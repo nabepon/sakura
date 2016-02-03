@@ -3728,7 +3728,7 @@ var doBeautify = function(source,is_css) {
 		"indent_char": "\t",
 		"max_preserve_newlines": -1, // 1  2  5  10  0  -1
 		"preserve_newlines": false,
-		"keep_array_indentation": false,
+		"keep_array_indentation": true,
 		"break_chained_methods": false,
 		"indent_scripts": "normal", // keep,normal,separate
 		"brace_style": "collapse",
