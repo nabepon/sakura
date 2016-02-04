@@ -1,16 +1,16 @@
 
 /*
-* ‘I‘ð‚µ‚½ƒJƒ‰[ƒR[ƒh‚ÌF‚ð•ÊƒEƒBƒ“ƒhƒE‚Å•\Ž¦‚·‚é
-* ƒEƒBƒ“ƒhƒE‚ÍƒNƒŠƒbƒN‚·‚é‚Æ•Â‚¶‚Ü‚·
-* —á1j00f © ‚ð‘I‘ð‚µAƒ}ƒNƒ‚ðŽÀs‚·‚é
-* —á2jrgba(255,0,0,1) © rgbaŒ`Ž®‚É‚à‘Î‰ž‚µ‚Ä‚Ü‚·
+* é¸æŠžã—ãŸã‚«ãƒ©ãƒ¼ã‚³ãƒ¼ãƒ‰ã®è‰²ã‚’åˆ¥ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã§è¡¨ç¤ºã™ã‚‹
+* ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã¯ã‚¯ãƒªãƒƒã‚¯ã™ã‚‹ã¨é–‰ã˜ã¾ã™
+* ä¾‹1ï¼‰00f â† ã‚’é¸æŠžã—ã€ãƒžã‚¯ãƒ­ã‚’å®Ÿè¡Œã™ã‚‹
+* ä¾‹2ï¼‰rgba(255,0,0,1) â† rgbaå½¢å¼ã«ã‚‚å¯¾å¿œã—ã¦ã¾ã™
 * 
-* “±“ü•û–@
-* show_color.html‚ð”CˆÓ‚ÌêŠ‚É‚¨‚«Avar path‚Ì•”•ª‚ðC³‚µ‚Ä‚­‚¾‚³‚¢B
+* å°Žå…¥æ–¹æ³•
+* show_color.htmlã‚’ä»»æ„ã®å ´æ‰€ã«ãŠãã€var pathã®éƒ¨åˆ†ã‚’ä¿®æ­£ã—ã¦ãã ã•ã„ã€‚
 */
 
 (function(){
-	// show_color.html‚ð“ü‚ê‚½êŠ‚ÌƒpƒX‚É•ÏX‚µ‚Ä‚­‚¾‚³‚¢B
+	// show_color.htmlã‚’å…¥ã‚ŒãŸå ´æ‰€ã®ãƒ‘ã‚¹ã«å¤‰æ›´ã—ã¦ãã ã•ã„ã€‚
 	var filename = Editor.GetFilename();
 	var path = filename.replace(/js$/,"html").replace(/\\/,"\\\\");
 	var document = new ActiveXObject('htmlfile');
@@ -21,8 +21,8 @@
 
 
 /*
-// ie‚ðŽg‚¤ƒo[ƒWƒ‡ƒ“B
-// ‹N“®‚Ü‚Å‚ªŽáŠ±’x‚¢
+// ieã‚’ä½¿ã†ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã€‚
+// èµ·å‹•ã¾ã§ãŒè‹¥å¹²é…ã„
 
 (function(){
 	var color = Editor.GetSelectedString(0);

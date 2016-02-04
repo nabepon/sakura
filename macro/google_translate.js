@@ -1,5 +1,5 @@
 /*
-* �T�N���őI�𒆂̕������Google�|�󂷂�
+* サクラで選択中の文字列をGoogle翻訳する
 */
 (function(){
 	var wsh = new ActiveXObject("WScript.Shell");

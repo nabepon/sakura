@@ -1,5 +1,5 @@
 /*
-* ƒNƒŠƒbƒvƒ{[ƒh‚ÉƒRƒs[‚µ‚½ƒpƒX‚ğŠJ‚­
+* ã‚¯ãƒªãƒƒãƒ—ãƒœãƒ¼ãƒ‰ã«ã‚³ãƒ”ãƒ¼ã—ãŸãƒ‘ã‚¹ã‚’é–‹ã
 */
 (function(){
 	var wsh = new ActiveXObject("WScript.Shell");
@@ -18,8 +18,8 @@
 		return false;
 	}
 	
-	if( checkMatch(clipboard, "09_‰^‰c,07_schedule".split(",") )){
-		open_chrome = ( window.confirm("Chrome‚ÅŠJ‚«‚Ü‚·‚©H") )?1:0;
+	if( checkMatch(clipboard, "09_é‹å–¶,07_schedule".split(",") )){
+		open_chrome = ( window.confirm("Chromeã§é–‹ãã¾ã™ã‹ï¼Ÿ") )?1:0;
 	}
 	
 	if(open_chrome){

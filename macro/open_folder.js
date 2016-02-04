@@ -1,5 +1,5 @@
 /*
-* 現在開いているファイルのフォルダを開く
+* 迴ｾ蝨ｨ髢九＞縺ｦ縺�繧九ヵ繧｡繧､繝ｫ縺ｮ繝輔か繝ｫ繝繧帝幕縺�
 */
 (function(){
 	var wsh = new ActiveXObject("WScript.Shell");
